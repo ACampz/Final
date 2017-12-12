@@ -265,6 +265,7 @@ public class Main extends javax.swing.JFrame {
 
     private void jbtnSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnSearchActionPerformed
         // TODO add your handling code here:
+        //will search? then not find active values?
         //Search tree
         String Find = jtxtFind.getText();
         if (Find.isEmpty())
@@ -286,7 +287,7 @@ public class Main extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        
+        //will continue to delete inactive values???
         //Delete int from tree
         String out = InActive.getText();
         String Find = jtxtFind.getText();
